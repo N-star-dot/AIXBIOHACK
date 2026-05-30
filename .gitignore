@@ -1,0 +1,58 @@
+# =========================================================================
+# Data files (downloaded / generated — do not commit, can be large)
+# =========================================================================
+# Raw release files (hackathon-provided + vcpi-client downloads)
+*.parquet
+*.npz
+*.csv
+*.h5ad
+*.h5
+
+# Model checkpoints and submissions
+*.pt
+*.pth
+*.ckpt
+predictions.parquet
+gnn_predictions.parquet
+
+# vcpi cache (~365 MB Mejia weights, etc.)
+.cache/
+
+# =========================================================================
+# Secrets — never commit
+# =========================================================================
+.env
+.env.*
+*token*
+*.token
+*.key
+
+# =========================================================================
+# Python build / runtime
+# =========================================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================================================================
+# Virtual envs
+# =========================================================================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================================================================
+# IDE / OS junk
+# =========================================================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
