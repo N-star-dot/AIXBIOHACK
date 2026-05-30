@@ -1,0 +1,17 @@
+.env
+cellxgene_cache.npz
+best_gnn.pt
+__pycache__/
+.claude-flow/
+vcpi-prediction-contest-2026/
+
+# Large data files (not submission)
+train_counts.parquet
+train_metadata.parquet
+train_chemistry.parquet
+weights.parquet
+gnn_predictions.parquet
+
+# Submission (too large for GitHub, share separately)
+predictions.parquet
+
